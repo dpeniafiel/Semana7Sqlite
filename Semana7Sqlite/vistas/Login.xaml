@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana7Sqlite.vistas.Login" Title="Acceso al Sistema">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="txtUsuario" Placeholder="ingrese nombre de usuario"/>
+
+            <Entry x:Name="txtContrasenia" Placeholder="ingrese su contraseña" IsPassword="True"/>
+
+            <Button x:Name="btnIniciarSesion" Text="Iniciar sesión" Clicked="btnIniciarSesion_Clicked" />
+
+            <Button x:Name="btnRegistrar" Text="REGISTRAR" Clicked="btnRegistrar_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
